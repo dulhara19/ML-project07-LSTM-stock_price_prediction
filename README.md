@@ -50,4 +50,8 @@ Clone this repository:
   git clone https://github.com/dulhara19/ML-project07-LSTM-stock_price_prediction.git
   cd stock-price-prediction
   ```
+# Collaboration
+
+If you're interested in collaborating on this project or have suggestions to improve the model, feel free to open an issue or submit a pull request on GitHub. I’m always open to learning and collaborating with others to improve the project further.
+
 Made with ❤️ by Dulhara Lakshan :) 
