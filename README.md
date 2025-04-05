@@ -16,20 +16,19 @@ Data Preprocessing: Data cleaning, normalization using MinMaxScaler, and handlin
 
 # Key Technologies
 
-- `title`: The headline of the news article
-Python: Core programming language used.
-TensorFlow: Deep learning framework used to build and train the LSTM model.
-NumPy & Pandas: Data manipulation and processing.
-Matplotlib: For visualizations.
-Scikit-Learn: For data preprocessing tasks like scaling and train-test splitting.
+- `Python`: Core programming language used
+- `TensorFlow`: Deep learning framework used to build and train the LSTM model.
+- `NumPy & Pandas`: Data manipulation and processing.
+- `Matplotlib`: For visualizations.
+- `Scikit-Learn`: For data preprocessing tasks like scaling and train-test splitting.
 
 # Dataset
 
 The dataset used for training is historical stock price data. It contains features such as:
 
-Date: The date the stock price data was recorded.
-Open, High, Low, Close: The stock prices at different times during the trading day.
-Volume: The total number of shares traded on that day.
+`Date`: The date the stock price data was recorded.
+`Open`, `High`, `Low`, `Close`: The stock prices at different times during the trading day.
+`Volume`: The total number of shares traded on that day.
 
 The dataset is cleaned and preprocessed to focus primarily on the 'Close' price for prediction.
 Setup Instructions
@@ -37,7 +36,7 @@ Setup Instructions
 To run this project locally, follow these steps:
 Prerequisites
 
-Python 3.7 or above
+`Python 3.7 or above`
 Install the required libraries:
 
   ```bash
