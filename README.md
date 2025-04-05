@@ -1,6 +1,6 @@
-## Stock Price Prediction using LSTM
+# Stock Price Prediction using LSTM
 
-Project Overview
+# Project Overview
 
 This project involves building a Long Short-Term Memory (LSTM) model, a type of Recurrent Neural Network (RNN), to predict stock prices using historical stock data. The LSTM model is well-suited for this task due to its ability to capture long-term dependencies in time series data, such as stock prices.
 
@@ -14,7 +14,7 @@ Model Evaluation: Evaluation metrics like Mean Absolute Error (MAE), Root Mean S
 Visualizations: Plotting actual vs. predicted values, future predictions, and training loss over epochs.
 Data Preprocessing: Data cleaning, normalization using MinMaxScaler, and handling outliers.
 
-Key Technologies
+# Key Technologies
 
 Python: Core programming language used.
 TensorFlow: Deep learning framework used to build and train the LSTM model.
@@ -22,7 +22,7 @@ NumPy & Pandas: Data manipulation and processing.
 Matplotlib: For visualizations.
 Scikit-Learn: For data preprocessing tasks like scaling and train-test splitting.
 
-Dataset
+# Dataset
 
 The dataset used for training is historical stock price data. It contains features such as:
 
@@ -39,14 +39,15 @@ Prerequisites
 Python 3.7 or above
 Install the required libraries:
 
-  ``bash
+  ```bash
   pip install numpy pandas matplotlib tensorflow scikit-learn
-  ``
+  ```
 
-Running the Code
+# Running the Code
 
 Clone this repository:
-  ``bash
+  ```bash
   git clone https://github.com/dulhara19/ML-project07-LSTM-stock_price_prediction.git
   cd stock-price-prediction
-  ``
+  ```
+Made with ❤️ by Dulhara Lakshan :) 
