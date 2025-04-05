@@ -39,14 +39,14 @@ Prerequisites
 Python 3.7 or above
 Install the required libraries:
 
-``bash
-pip install numpy pandas matplotlib tensorflow scikit-learn
-``
+  ``bash
+  pip install numpy pandas matplotlib tensorflow scikit-learn
+  ``
 
 Running the Code
 
 Clone this repository:
-``bash
-git clone https://github.com/dulhara19/ML-project07-LSTM-stock_price_prediction.git
-cd stock-price-prediction
-``
+  ``bash
+  git clone https://github.com/dulhara19/ML-project07-LSTM-stock_price_prediction.git
+  cd stock-price-prediction
+  ``
