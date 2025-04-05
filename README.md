@@ -7,7 +7,7 @@ This project involves building a Long Short-Term Memory (LSTM) model, a type of 
 The model was trained on historical stock price data and aims to predict the future stock prices over a specific time window. It also involves exploring data preprocessing techniques like First-Order Differencing to make the time series stationary, which helps improve the accuracy of predictions.
 
 The notebook is freely available, and I hope it serves as a helpful resource for others interested in time series forecasting using LSTMs.
-Features
+# Features
 
 Time Series Forecasting: Prediction of stock prices using LSTM.
 Model Evaluation: Evaluation metrics like Mean Absolute Error (MAE), Root Mean Squared Error (RMSE), and R² Score.
@@ -16,6 +16,7 @@ Data Preprocessing: Data cleaning, normalization using MinMaxScaler, and handlin
 
 # Key Technologies
 
+- `title`: The headline of the news article
 Python: Core programming language used.
 TensorFlow: Deep learning framework used to build and train the LSTM model.
 NumPy & Pandas: Data manipulation and processing.
