@@ -74,6 +74,13 @@ Training Loss Plot: Live training loss is visualized as the model trains, showin
 Actual vs Predicted Plot: The actual vs. predicted stock prices are plotted for model evaluation.
 Future Predictions: The predicted stock prices for the next 30 days are plotted for forecasting.
 
+### Model Evaluation
+
+`The performance of the LSTM model was evaluated using various metrics:`
+
+Mean Absolute Error (MAE): Measures the average magnitude of errors in the predictions.
+Root Mean Squared Error (RMSE): Measures the square root of the average squared differences between predicted and actual values.
+R² Score: Represents how well the model explains the variance in the data. A value close to 1 indicates a good fit.
 
 # Collaboration
 
