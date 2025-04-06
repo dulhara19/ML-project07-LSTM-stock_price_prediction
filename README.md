@@ -69,7 +69,7 @@ After training the model, predictions are made for future stock prices. The Mean
 The model is used to predict future stock prices for the next 30 days.
 ## Future Prediction Plot
  
-![Future Predictions](images/Screenshot 2025-04-06 235057.png)
+![Future Predictions](images/model.png)
 
 
 ### Step 4: Visualizations
