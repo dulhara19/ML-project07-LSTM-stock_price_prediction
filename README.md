@@ -1,20 +1,20 @@
-## Stock Price Prediction using LSTM
+# Stock Price Prediction using LSTM
 
-# Project Overview
+## Project Overview
 
 This project involves building a Long Short-Term Memory (LSTM) model, a type of Recurrent Neural Network (RNN), to predict stock prices using historical stock data. The LSTM model is well-suited for this task due to its ability to capture long-term dependencies in time series data, such as stock prices.
 
 The model was trained on historical stock price data and aims to predict the future stock prices over a specific time window. It also involves exploring data preprocessing techniques like First-Order Differencing to make the time series stationary, which helps improve the accuracy of predictions.
 
 The notebook is freely available, and I hope it serves as a helpful resource for others interested in time series forecasting using LSTMs.
-# Features
+## Features
 
 Time Series Forecasting: Prediction of stock prices using LSTM.
 Model Evaluation: Evaluation metrics like Mean Absolute Error (MAE), Root Mean Squared Error (RMSE), and R² Score.
 Visualizations: Plotting actual vs. predicted values, future predictions, and training loss over epochs.
 Data Preprocessing: Data cleaning, normalization using MinMaxScaler, and handling outliers.
 
-# Key Technologies
+## Key Technologies
 
 - `Python`: Core programming language used
 - `TensorFlow`: Deep learning framework used to build and train the LSTM model.
@@ -22,7 +22,7 @@ Data Preprocessing: Data cleaning, normalization using MinMaxScaler, and handlin
 - `Matplotlib`: For visualizations.
 - `Scikit-Learn`: For data preprocessing tasks like scaling and train-test splitting.
 
-# Dataset
+## Dataset
 
 The dataset used for training is historical stock price data. It contains features such as:
 
@@ -43,7 +43,7 @@ Install the required libraries:
   pip install numpy pandas matplotlib tensorflow scikit-learn
   ```
 
-# Running the Code
+## Running the Code
 
 Clone this repository:
   ```bash
@@ -52,31 +52,27 @@ Clone this repository:
   ```
 
 ## How It Works
-Step 1: Data Preprocessing
 
-    The data is loaded and cleaned. A boxplot is used to identify outliers in the stock prices.
+### Step 1: Data Preprocessing
 
-    The 'Close' price is scaled between 0 and 1 using MinMaxScaler to prepare it for input into the LSTM model.
+The data is loaded and cleaned. A boxplot is used to identify outliers in the stock prices.
+The 'Close' price is scaled between 0 and 1 using MinMaxScaler to prepare it for input into the LSTM model.
 
-Step 2: LSTM Model
+### Step 2: LSTM Model
 
-    The LSTM model is built with two LSTM layers and a dense output layer to predict the next day's stock price based on historical data.
+The LSTM model is built with two LSTM layers and a dense output layer to predict the next day's stock price based on historical data.
+The model is compiled with the Adam optimizer and trained using Mean Squared Error (MSE) as the loss function.
 
-    The model is compiled with the Adam optimizer and trained using Mean Squared Error (MSE) as the loss function.
+### Step 3: Forecasting and Evaluation
 
-Step 3: Forecasting and Evaluation
+After training the model, predictions are made for future stock prices. The Mean Absolute Error (MAE), Root Mean Squared Error (RMSE), and R² Score are calculated to evaluate model performance.
+The model is used to predict future stock prices for the next 30 days.
 
-    After training the model, predictions are made for future stock prices. The Mean Absolute Error (MAE), Root Mean Squared Error (RMSE), and R² Score are calculated to evaluate model performance.
+### Step 4: Visualizations
 
-    The model is used to predict future stock prices for the next 30 days.
-
-Step 4: Visualizations
-
-    Training Loss Plot: Live training loss is visualized as the model trains, showing how the loss decreases with each epoch.
-
-    Actual vs Predicted Plot: The actual vs. predicted stock prices are plotted for model evaluation.
-
-    Future Predictions: The predicted stock prices for the next 30 days are plotted for forecasting.
+Training Loss Plot: Live training loss is visualized as the model trains, showing how the loss decreases with each epoch.
+Actual vs Predicted Plot: The actual vs. predicted stock prices are plotted for model evaluation.
+Future Predictions: The predicted stock prices for the next 30 days are plotted for forecasting.
 
 
 # Collaboration
