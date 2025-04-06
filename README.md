@@ -67,6 +67,10 @@ The model is compiled with the Adam optimizer and trained using Mean Squared Err
 
 After training the model, predictions are made for future stock prices. The Mean Absolute Error (MAE), Root Mean Squared Error (RMSE), and R² Score are calculated to evaluate model performance.
 The model is used to predict future stock prices for the next 30 days.
+## Future Prediction Plot
+ 
+![Future Predictions](images/Screenshot 2025-04-06 235057.png)
+
 
 ### Step 4: Visualizations
 
